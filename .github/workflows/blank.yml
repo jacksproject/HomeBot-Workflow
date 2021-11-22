@@ -36,6 +36,7 @@ jobs:
            python3 --version
            sudo apt-get update
            sudo apt install python3 -y
+           python3.9 -y exit()
            sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
            python3 --version
            cd Bot && pip3 install . && python3 -m homebot
